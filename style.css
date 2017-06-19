@@ -1,0 +1,133 @@
+body{
+  background-image: url("images/background.jpg");
+  background-repeat: repeat-y;
+}
+
+header {
+  font-family: 'Unica One', cursive;
+  background-color: rgba(45, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+nav.navigation {
+    display: block;
+    margin-bottom: 10px;
+}
+nav.navigation  ul {
+    font-size: 14x;
+    text-align: center;
+}
+nav.navigation  ul li {
+    display: inline-block;
+}
+nav.navigation  ul li a {
+    padding: 3px 6px;
+    color: #575c7d;
+    font-size:22px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.navigation  ul li a:hover {
+    background: #ccc;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin: 0;
+    text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+#one {
+  width: 100px;
+  color: #000;
+  float: left;
+  margin: 10px;
+  font-size: 13px;
+}
+
+#two {
+  border: 1px dashed;
+  width: 548px;
+  color: #000;
+  float: left;
+  margin: 10px;
+  padding: 7px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#three {
+  width: 270px;
+  color: #000;
+  float: left;
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Unica One', cursive;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Unica One', cursive;
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+}
+
+footer {
+  background-color:re;
+  text-align: center;
+  margin: 45px;
+}
+
+@media only screen and (max-device-width: 768px) {
+		div#wrapper {
+			width: 400px;
+		}
+
+		div#header {
+			height: 93px;
+			position: relative;
+		}
+
+		div#header h1 {
+			font-size: 140%;
+		}
+
+		#two, #three {
+			float: none;
+			width: 100%;
+		}
+
+    #one {
+      display: none;
+    }
+
+		.navigation {
+			float:none;
+			width: auto;
+		}
+	}
