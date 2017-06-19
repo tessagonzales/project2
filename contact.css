@@ -1,0 +1,27 @@
+body {
+   background-image: url("images/background.jpg");
+  background-repeat: repeat-y;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+  font-family: 'Unica One', cursive;
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+
+}
+
+.paragraph {
+   font-family: 'Vollkorn', serif;
+  background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 2em;
+    overflow: hidden;
+}
